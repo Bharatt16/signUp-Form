@@ -3,7 +3,9 @@
     padding : 0;
     box-sizing: border-box;
     color : rgb(199, 196, 196);
+    font-family: monospace;;
 }
+
 
 #bg-video{
 position: fixed;
@@ -29,6 +31,8 @@ position: fixed;
 
 form {
     position: absolute;
+    top : 35px;
+
     right : 75px;
     width: 500px;
     margin: 5vh auto;
@@ -59,7 +63,7 @@ button {
   color: white;
   font-weight: bold;
   cursor: pointer;
-  margin : 10px;
+  margin : 15px 0 ;
 }
 
     
@@ -67,11 +71,26 @@ button {
       padding: 0.5rem;
       border: none;
       border-radius: 5px;
+      color : black;
+      border: 2px solid transparent;
     }
 
     input:hover{
-        box-shadow: 0 0 10px rgb(247, 230, 230);
+        box-shadow: 0 0 10px rgb(205, 204, 204);
     }
+
+     form.submitted input:invalid {
+        border-color: red;
+      }
+      
+      form.submitted input:valid {
+        border-color: green;
+      }
+
+      .inputWrapperr{
+        display : flex;
+        
+      }
     
     /*
   

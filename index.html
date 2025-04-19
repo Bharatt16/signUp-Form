@@ -13,23 +13,30 @@
          Your browser does not support video Tag
     </video>
     
-    <form action="">
+    <form action="" method="get">
         <fieldset>
 
           <label for="name">*Name:</label>
-          <input type="text" id="name" required>
+          <input type="text" id="name" maxlength="25" placeholder="Simon Riley Ghostt" required>
       
           <label for="Ph-num">*Phone Number:</label>
-          <input type="tel" id="Ph-num" required>
+          <input type="tel" id="Ph-num" maxlength="10" placeholder="10 digit Phone Number" pattern="[0-9]{10}" required>
       
           <label for="email">*Email:</label>
-          <input type="email" id="email" required>
+          <input type="email" id="email" placeholder="ghost16@gmail.com" required>
       
-          <label for="password">*Password:</label>
-          <input type="password" id="password" required>
-      
-          <label for="confPassword">*Confirm Password:</label>
-          <input type="password" id="confPassword" required>
+          <div class="inputWrapper">
+              <label for="password">*Password:</label>
+              <input type="password" id="password" placeholder="$*password*$" required>
+              <img src="show.svg" alt="show">
+            </div>
+            
+            <div class="inputWrapper">
+                <label for="confPassword">*Confirm Password:</label>
+                <input type="password" id="confPassword" placeholder="$*password*$" required>
+                <img src="notshow.svg" alt="Notshow">
+
+          </div>
         </fieldset>
       
         <button type="submit">Sign Up</button>
