@@ -1,0 +1,79 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    color : rgb(199, 196, 196);
+}
+
+#bg-video{
+position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center center; /* This focuses the center */
+  z-index: -1;
+}
+/* form{
+    width: 500px;
+    backdrop-filter: blur(5px);
+    position: absolute;
+    top: 50px;
+    right: 90px;
+    border: 1px solid rgb(120, 90, 90);
+    border-radius : 15px;
+    gap:20px;
+    font-size: 1.5em;
+} */
+
+form {
+    position: absolute;
+    right : 75px;
+    width: 500px;
+    margin: 5vh auto;
+    padding: 2rem;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+label {
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin : 10px;
+}
+
+    
+    input {
+      padding: 0.5rem;
+      border: none;
+      border-radius: 5px;
+    }
+
+    input:hover{
+        box-shadow: 0 0 10px rgb(247, 230, 230);
+    }
+    
+    /*
+  
+  
+   */
