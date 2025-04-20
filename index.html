@@ -13,14 +13,19 @@
          Your browser does not support video Tag
     </video>
     
+    <div class="para">
+     <p>
+         This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started<br>You know you want to.
+        </p>
+    </div>
 
-   <div class="para">
-    <p>
-        This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started<br>You know you want to.
-       </p>
-   </div>
 
-   <img id="logo" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="logo" ><p>The Odin-Projects</p>
+<div class="logoName">
+
+  <img id="logo" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="logo" >
+  <p id="Odinname">The Odin-Projects</p>
+</div>
+
 
 
 
@@ -39,18 +44,19 @@
           <div class="inputWrapper">
               <label for="password">*Password:</label>
               <input type="password" id="password" placeholder="$*password*$" required>
-              <img src="show.svg" class="toggle-password" alt="show">
+              <img src="show.svg" class="toggle-password" alt="show" data-target="password">
             </div>
             
             <div class="inputWrapper">
                 <label for="confPassword">*Confirm Password:</label>
                 <input type="password" id="confPassword" placeholder="$*password*$" required>
-                <img src="show.svg" class="toggle-password" alt="Notshow">
+                <img src="show.svg" class="toggle-password" alt="show" data-target="confPassword">
 
           </div>
+          <p id="error" style="color : crimson"></p>
         </fieldset>
       
-        <button type="submit">Sign Up</button>
+        <button id="btn" type="submit">Sign Up</button>
         <p>Already have an account? <span>Log in</span></p>
       </form>
 

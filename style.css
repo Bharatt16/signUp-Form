@@ -131,21 +131,45 @@ span:hover{
     font-family:"NorseBold",cursive;
 }
 
+.para p{
+  font-size: 1.5rem;
+  /* font-weight: 700; */
+  font-family: "NorseBold";
+  letter-spacing: .1em;
+  line-height: 2.5rem;
+}
+
 #logo{
    height : 75px;
-   position: absolute;
-   margin : 20px;
+   /* position: absolute;
+   margin : 20px; */
 }
 
 
 @font-face {
     font-family: "NorseBold";
-    src: url("Norse-Bold.otf") format("opentype");
+    src: url(./Norse-Bold.otf) format("opentype");
     font-weight: normal;
     font-style: normal;
   }
 
-
+  .logoName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 291px;
+    gap: 25px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  #Odinname{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: "NorseBold";
+    letter-spacing: .1em;
+}
     /*
   
   
