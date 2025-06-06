@@ -4,7 +4,7 @@ A modern and responsive sign-up form built with HTML, CSS, and JavaScript. This 
 
 ## Live Demo & Repository
 
-- Live Demo: [SignUp Form](https://ghostt-coder.github.io/TodoApp/)
+- Live Demo: [SignUp Form](https://ghostt-coder.github.io/signUp-Form/)
 - GitHub Repository: [signUp-Form](https://github.com/Ghostt-coder/signUp-Form.git)
 
 ## Features
